@@ -1,0 +1,145 @@
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(73, 4, 4);
+    height: 80px;
+}
+.container a:hover{
+    color: rgb(104, 104, 104);
+}
+.container a:active{
+    color: yellow;
+}
+.container{
+    display: flex;
+   text-align: center;
+   align-items: center;
+   gap: 30px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+}
+.containerimg{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10PX;
+}
+section .btn{
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(141, 253, 27);
+}
+section .btn:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+}
+section .btn:active{
+    background-color: aqua;
+    color: yellow;
+}
+section .container{
+    direction: flex;
+    width: 256px;
+    flex-direction: column;
+    text-align: start;
+    align-items: start;
+    color: white;
+    gap: 60px;
+}
+main section{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+     padding: 80PX 100PX;
+}
+/* section1 tugadi */
+.section .conter2{
+    border: 1px solid rgb(141, 253, 27);
+    color: white;
+    background-color: rgb(53, 53, 53);
+    width: 500px;
+    height: 190px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 260px;
+}
+.conter{
+   border: 1px solid rgb(141, 253, 27);
+    color: white;
+    background-color: rgb(53, 53, 53);
+    width: 500px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+     margin-left: 260px;
+     padding: 10px;
+}
+
+ .conter2 img{
+    margin-left: 340px;
+    margin-top: -65px;
+ }
+ .conter2 p{
+    padding: 20px 20px;
+ }
+ .section{
+    display: flex;
+    flex-direction: column;
+    gap:-60px;
+ }
+ .imguch1{
+    margin-top: -700px;
+    margin-left: -320px;
+    width: 400px;
+    
+ }
+ .imguch2{
+    margin-left: 860px;
+    width: 350px;
+    
+ }
+ .imguch3{
+    margin-left: -380px;
+    width: 500px;
+    margin-top: -180px;
+    
+ }
+ .surishga{
+    margin-top: -330px;
+ }
+
+ /* main orta div tugadi */
+
+ .oxhiri h1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-left: 430px;
+    margin-top: -890;
+ }
+ .oxr{
+
+color: white;
+ }
+ .immgg{
+    margin-top: 30px;
+    margin-left: -20px;
+ }
+ .art{
+    display: flex;
+    text-align: center;
+    color: white;
+    text-align: center;
+ }
